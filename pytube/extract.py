@@ -124,9 +124,9 @@ def video_info_url(
     else:
         # I'm not entirely sure what ``t`` represents. Looks to represent a
         # boolean.
-        t = regex_search(
-            r'\W[\'"]?t[\'"]?: ?[\'"](.+?)[\'"]', watch_html,
-            group=0,
+        #t = regex_search(
+        #   r'\W[\'"]?t[\'"]?: ?[\'"](.+?)[\'"]', watch_html,
+        #  group=0,
         )
         params = OrderedDict([
             ('video_id', video_id),
